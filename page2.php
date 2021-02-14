@@ -1,3 +1,4 @@
+<!--Page de "connexion" utilisant les cookies et permettant de vÃ©rifier leur fonctionnement-->
 <?php
 $_SERVER['HTTPS'] = "on";
 
@@ -11,15 +12,15 @@ Bienvenue sur la page 2 ! (Test avec les cookies)<br/><br/>
 <?php 
 if(!isset($_COOKIE['prenom']) AND !isset($_COOKIE['nom']))
 {
-    echo "Vous n'êtes pas identifié (aucun cookie)" . "<br/>";
-    echo "<a href='index.php'> Retour à l'accueil </a>";
+    echo "Vous n'Ãªtes pas identifiÃ© (aucun cookie)" . "<br/>";
+    echo "<a href='index.php'> Retour Ã  l'accueil </a>";
 }
 
 else
 {
-    echo "Votre prénom : " . $_COOKIE['prenom'] . "<br/>";
+    echo "Votre prÃ©nom : " . $_COOKIE['prenom'] . "<br/>";
     echo "Votre nom : " . $_COOKIE['nom'] . "<br/>";    
-    echo "<a href='index.php'> Retour à l'accueil </a>";
+    echo "<a href='index.php'> Retour Ã  l'accueil </a>";
 }
 
 ?>
