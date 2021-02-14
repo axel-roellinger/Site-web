@@ -1,3 +1,4 @@
+<!--Vide les ID de session-->
 <?php
 $_SERVER['HTTPS'] = "on";
 session_start();
