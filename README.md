@@ -2,6 +2,8 @@
 Travaux sur un prototype d'un site de tchat. Le langage principal est le PHP, pour gérer l'accès à la base de données. 
 L'objectif sera d'héberger cette base de données sur un serveur (ici une VM Ubuntu Server), pour étudier le fonctionnement d'un service de messagerie instantané.
 
+Étant donné que mon code ne permet pas de communiquer avec un serveur, l'emploi du mot connexion se fera avec des guillemets, car il ne reflète que l'utilisation des valeurs contenues dans les variables superglobales, sans permettre de récupérer des données associées à un compte sur une base de données quelconque.
+
 - Source principale : OpenClassrooms
 - Lien du cours : https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql
 - Professeur : Mathieu Nebra
