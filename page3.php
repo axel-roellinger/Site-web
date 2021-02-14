@@ -1,3 +1,4 @@
+<!--Page de "connexion" permettant de vÃ©rifier le fonctionnement des ID de session"-->
 <?php
 $_SERVER['HTTPS'] = "on";
 
@@ -7,7 +8,7 @@ session_start();
 
 <!DOCTYPE html>
 Bienvenue sur la page 3 ! <br/>
-Votre prénom : <?php echo $_SESSION['prenom'];?><br/>
+Votre prÃ©nom : <?php echo $_SESSION['prenom'];?><br/>
 Votre nom : <?php echo $_SESSION['nom'];?><br/>
 
-<a href="index.php">Retour à l'accueil</a>
+<a href="index.php">Retour Ã  l'accueil</a>
