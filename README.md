@@ -1,4 +1,4 @@
-# site-web
+# site-web-/-messagerie-instantanee
 Travaux sur un prototype d'un site de tchat. Le langage principal est le PHP, pour gérer l'accès à la base de données. 
 L'objectif sera d'héberger cette base de données sur un serveur (ici une VM Ubuntu Server), pour étudier le fonctionnement d'un service de messagerie instantané.
 
