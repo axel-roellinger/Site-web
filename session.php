@@ -1,3 +1,4 @@
+<!--Cette page permet d'associer une valeur différente de '' aux ID de session ainsi qu'aux cookies qui vont être stockés dans le navigateur-->
 <?php
 $_SERVER['HTTPS'] = "on";
 
@@ -15,11 +16,11 @@ if($_POST['prenom'] != '' AND $_POST['nom'] != '')
     header('Location: index.php');
     exit();
 }
-else
+else //En cas d'input invalide de la part de l'utilisateur
 {
-    echo "Vous n'�tes pas identifi�" . '<br/>';
+    echo "Vous n'êtes pas identifié" . '<br/>';
     echo "<a href='index.php'>" ;
-    echo "Retourner � l'accueil";
+    echo "Retourner à l'accueil";
     echo "</a>";
 }
 ?>
